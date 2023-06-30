@@ -29,7 +29,7 @@ import {
 const Main = () => {
   const store = useContext(Context);
   const limitUsersPerPage = 5;
-  const socket = new WebSocket(process.env.REACT_APP_WSS);
+  const socket = new WebSocket("wss://test.relabs.ru/event");
 
   const [users, setUsers] = useState([]);
   const [page, setPage] = useState(1);

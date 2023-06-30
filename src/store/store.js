@@ -1,4 +1,4 @@
-import { authorizationService, getUsers } from "src/services/user-service";
+import { getUsers } from "src/services/user-service";
 import { events } from "src/constants";
 
 class Store {
